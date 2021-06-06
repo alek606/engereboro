@@ -896,7 +896,7 @@ result = fs.readFileSync(`./src/kevi.webp`)
 tiringa.sendMessage(from, result, sticker, {quoted: mek })
 }
 
-}
+			
 switch(testat) {
 //_ COMANDOS Z24
 case 'lia':
