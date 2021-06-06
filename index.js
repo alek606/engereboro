@@ -842,59 +842,17 @@ reply('Qual a graça?🤨')
 }
 
 if (budy.match('angel')) {
-result = fs.readFileSync(`./src/alek.webp`)
+result = fs.readFileSync(`./src/mask.webp`)
 tiringa.sendMessage(from, result, sticker, {quoted: mek })
 } else if (budy.match('Angel')) {
-result = fs.readFileSync(`./src/alek.webp`)
+result = fs.readFileSync(`./src/mask.webp`)
 tiringa.sendMessage(from, result, sticker, {quoted: mek })
 } else if (budy.match('ANGEL')) {
-result = fs.readFileSync(`./src/alek.webp`)
+result = fs.readFileSync(`./src/mask.webp`)
 tiringa.sendMessage(from, result, sticker, {quoted: mek })
 }
 
-if (budy.match('omori')) {
-result = fs.readFileSync(`./src/eu.webp`)
-tiringa.sendMessage(from, result, sticker, {quoted: mek })
-} else if (budy.match('Omori')) {
-result = fs.readFileSync(`./src/eu.webp`)
-tiringa.sendMessage(from, result, sticker, {quoted: mek })
-} else if (budy.match('OMORI')) {
-result = fs.readFileSync(`./src/eu.webp`)
-tiringa.sendMessage(from, result, sticker, {quoted: mek })
-}
 
-if (budy.match('yumi')) {
-result = fs.readFileSync(`./src/tu.webp`)
-tiringa.sendMessage(from, result, sticker, {quoted: mek })
-} else if (budy.match('Yumi')) {
-result = fs.readFileSync(`./src/tu.webp`)
-tiringa.sendMessage(from, result, sticker, {quoted: mek })
-} else if (budy.match('YUMI')) {
-result = fs.readFileSync(`./src/tu.webp`)
-tiringa.sendMessage(from, result, sticker, {quoted: mek })
-}
-
-if (budy.match('elvis')) {
-result = fs.readFileSync(`./src/euvi.webp`)
-tiringa.sendMessage(from, result, sticker, {quoted: mek })
-} else if (budy.match('Elvis')) {
-result = fs.readFileSync(`./src/euvi.webp`)
-tiringa.sendMessage(from, result, sticker, {quoted: mek })
-} else if (budy.match('ELVIS')) {
-result = fs.readFileSync(`./src/euvi.webp`)
-tiringa.sendMessage(from, result, sticker, {quoted: mek })
-}
-
-if (budy.match('kevin')) {
-result = fs.readFileSync(`./src/kevi.webp`)
-tiringa.sendMessage(from, result, sticker, {quoted: mek })
-} else if (budy.match('Kevin')) {
-result = fs.readFileSync(`./src/kevi.webp`)
-tiringa.sendMessage(from, result, sticker, {quoted: mek })
-} else if (budy.match('KEVIN')) {
-result = fs.readFileSync(`./src/kevi.webp`)
-tiringa.sendMessage(from, result, sticker, {quoted: mek })
-}
 
 			
 switch(testat) {
