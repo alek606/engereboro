@@ -3269,7 +3269,7 @@ break
 case 'sn':
 const sn = ['sim', 'não']
 gosto = body.slice(3)
-if (args.length < 1) return tiringa.sendMessage(from, `Você deve fazer uma pergunta...\nExemplo: ${prefix}sn O Italu é um baiano preguiçoso?`, text, {quoted: mek})
+if (args.length < 1) return tiringa.sendMessage(from, `Você deve fazer uma pergunta...\nExemplo: ${prefix}sn O angel é um gostoso?`, text, {quoted: mek})
 const jawab = sn[Math.floor(Math.random() * (sn.length))]
 hasil = `${gosto}\n\nSegundo meus cálculos, eu acredito que... ${jawab}`
 reply(hasil)
@@ -3311,7 +3311,7 @@ if (vit == "vitoria") {
 var tes = "Vitória do jogador"
 }
 if (vit == "derrota" ) {
-var tes = "A vitória é do Tiringa-BOT"
+var tes = "A vitória é do engere bots"
 }
 if (vit == "empate" ) {
 var tes = "O jogo terminou em empate"
@@ -3370,7 +3370,7 @@ const slott =
 ║                                           
 ║          [💰SLOT💰 | 777 ]        
 ╚════ ≪ •❈• ≫ ════╝
-                      @ɪᴛᴀʟᴜ
+                      @engere
 
 ${vitr}`
 if (vitr == "Você ganhou!!!") {
